@@ -30,7 +30,7 @@ function createGrid(size){
    container.style.gridTemplateRows = `repeat(${size}, 1fr)`;
 }
 
-function promptGrid() {
+function promptUser() {
     let number = prompt("Choose grid size between 5-64!", 10); 
      if (number >= 5 && number <= 64) {
          createGrid(number);
@@ -51,6 +51,5 @@ resetButton.addEventListener('click', function(){
 
 
 
- promptGrid();
-
+ promptUser();
 
