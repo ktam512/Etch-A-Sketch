@@ -1,0 +1,40 @@
+
+h1 {
+     text-align: center;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto;
+}
+
+#clear-grid-button {
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    background-color: #05a;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+
+
+#container {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    margin: 1rem auto;
+    border: 1px solid #000;
+    
+}
+
+#container .square {
+    border: 0.5px solid #000;
+    background-color: white;
+    opacity: 1;
+    transition: all 700ms ease-in-out;
+  }
